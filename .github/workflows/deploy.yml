@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          repository: fahdahmadee072-wq/hello-java-docker
 
       - name: Set up Java
         uses: actions/setup-java@v4
